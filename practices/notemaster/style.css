@@ -1,0 +1,33 @@
+#app {}
+#app .form {
+    margin-bottom: 15px;
+}
+#app .card-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#app .card-item .card-remove {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: right;
+    margin-top: -5px;
+}
+#app .card-item .card-remove:hover {
+    color: #dedede;
+}
+#app .card-item .card-block {}
+#app .card-item .card-block hr {
+    margin: 0;
+}
+#app .card-item .card-block .title {
+    min-height: 35px;
+    margin: 0 35px 0 0;
+}
+#app .card-item .card-block .date {
+    opacity: 0.5;
+    font-style: italic;
+}
+#app .card-item .card-block .content {}
